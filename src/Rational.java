@@ -139,6 +139,6 @@ public class Rational {
 
         // Закриваємо сканер після завершення всіх операцій
         scanner.close();
-    }
+    } 
 }
  
