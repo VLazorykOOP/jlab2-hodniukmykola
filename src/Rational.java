@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Rational {
+    static int r=7;
     private int numerator;   // чисел
     private int denominator; // знам
 
@@ -101,7 +102,8 @@ public class Rational {
         
         System.out.println("Введіть перший дріб:");
         Rational r1 = inputRational(scanner);
-
+        r1.r=10;
+        Rational.r=10;
         System.out.println("Введіть другий дріб:");
         Rational r2 = inputRational(scanner);
 
